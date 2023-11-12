@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Caveat';
+    src: url("./Caveat-VariableFont_wght.ttf") format("woff");
+}
+
+@font-face {
+    font-family: 'Gaegu-Bold';
+    src: url("./Gaegu-Bold.ttf") format("woff");
+}
+@font-face {
+    font-family: 'Gaegu-Regular';
+    src: url("./Gaegu-Regular.ttf") format("woff");
+}
+@font-face {
+    font-family: 'Gamja';
+    src: url("./GamjaFlower-Regular.ttf") format("woff");
+}
+@font-face {
+    font-family: 'NanumPen';
+    src: url("./NanumPenScript-Regular.ttf") format("woff");
+}
+

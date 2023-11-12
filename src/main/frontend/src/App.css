@@ -1,0 +1,692 @@
+@font-face {
+  font-family: 'Caveat';
+  src: url("./fonts/Caveat-VariableFont_wght.ttf") format("woff");
+}
+
+@font-face {
+  font-family: 'Gaegu-Bold';
+  src: url("./fonts/Gaegu-Bold.ttf") format("woff");
+}
+@font-face {
+  font-family: 'Gaegu-Regular';
+  src: url("./fonts/Gaegu-Regular.ttf") format("woff");
+}
+@font-face {
+  font-family: 'Gamja';
+  src: url("./fonts/GamjaFlower-Regular.ttf") format("woff");
+}
+@font-face {
+  font-family: 'NanumPen';
+  src: url("./fonts/NanumPenScript-Regular.ttf") format("woff");
+}
+
+
+.App {
+  background-color: #f3efee;
+}
+
+.detail_content img {
+  width: 70%;
+}
+
+
+.detail_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Nanum Myeongjo";
+  font-size: 25px;
+  padding-top: 0;
+  background-color: white;
+}
+
+.flower_img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+
+.flowerName {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.flowerName h1{
+  margin-top: 40px;
+  font-size: 50px;
+  margin-bottom: 0;
+  color: #574b3e;
+}
+.flowerName p{
+  color: #a6a6a6;
+  font-size: 20px;
+  margin: 0;
+}
+.flowerLan {
+  font-size: 35px;
+  margin: 10px;
+  color: #ca8a8b;
+}
+
+hr {
+  border: 0.5px solid rgba(88, 109, 88, 0.24);
+  width: 70%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.detail_text {
+  margin-top: 40px;
+  width: 70%;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  line-height: 32px;
+  padding-bottom: 40px;
+  color: #574b3e;
+}
+.main_screen {
+  background-image: url("img/main_img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 800px;
+}
+
+.listBody2 {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listItem2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+.listTem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.listItem2:hover{
+  color:white;
+  background-color: rgba(0, 0, 0, 0.09);
+  border: 2px solid #e8c0c0;
+}
+
+
+.itemText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  font-family: "Nanum Myeongjo";
+  text-align: center;
+  color: #574b3e;
+}
+.itemName {
+  margin-bottom: 0;
+  font-size: 28px;
+  margin-top: 10px;
+}
+.itemNo{
+  display: none;
+}
+.itemLan {
+  font-size: 18px;
+  margin-top: 8px;
+}
+.itemImg {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.pageBtn {
+  display: flex;
+  width: 50%;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.recContent {
+  display: flex;
+  width: 90%;
+  height: 500px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: white;
+}
+
+.recText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin-right: 30px;
+}
+
+.recContent img {
+  width: 60%;
+  margin: 0;
+  padding: 0;
+}
+
+.recfName {
+  text-align: center;
+}
+
+.recfName .hName {
+  font-family: "Nanum Myeongjo";
+  font-size: 50px;
+  margin-bottom: 0;
+  color: #5b4936;
+}
+
+.recfName .eName{
+  font-family: "Nanum Myeongjo";
+  margin-top: 0;
+  font-size: 15px;
+  color: #939393;
+}
+
+.recfLan {
+  font-family: "Nanum Myeongjo";
+  font-size: 33px;
+  color: #ca8a8b;
+}
+
+.tdTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tdTitle img {
+  width: 40px;
+  padding: 0;
+}
+
+.seBody {
+  min-height: 1000px;
+}
+
+.search_opt {
+  height: 40px;
+  width: 110px;
+  text-align: center;
+}
+
+.dateBox {
+  font-size: 25px;
+}
+
+.monthSel {
+  background: none;
+  margin-right: 5px;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid rgb(196, 196, 196);
+  font-size: 20px;
+  font-family: "Nanum Myeongjo";
+}
+
+.daySel {
+  margin: 10px;
+  padding: 10px;
+  background: none;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid rgb(196, 196, 196);
+  font-size: 20px;
+  font-family: "Nanum Myeongjo";
+}
+
+.search_con {
+  font-family: "Nanum Myeongjo";
+}
+
+.searchInput input {
+  width: 600px;
+  padding: 10px;
+  font-family: "Nanum Myeongjo";
+}
+
+.search_result_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 350px;
+  font-family: "Nanum Myeongjo";
+  margin-top: 30px;
+  background-color: white;
+}
+
+.search_result_box:hover{
+  background-color: rgba(0, 0, 0, 0.09);
+  border: 2px solid #e8c0c0;
+}
+
+.search_result_box img {
+  margin-top: 10px;
+  width: 300px;
+}
+
+.result_text {
+  text-align: center;
+  width: 100%;
+}
+
+.result_text h2 {
+  font-size: 40px;
+}
+
+.detail_bottom {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+
+.purBody h2 {
+  margin-left: 40px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: start;
+}
+
+.proimg {
+  width: 40%;
+  padding: 0;
+  margin-left: 30px;
+}
+
+.proline {
+  width: 95%;
+  margin-top: 0;
+  color: rgba(202, 138, 139, 0.37);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.proinfo{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+
+.protext {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  text-align: start;
+  margin-left: 40px;
+}
+
+.protext h2 {
+  margin-left: 0px;
+}
+
+
+.off_cont {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: space-between;
+}
+
+#off {
+  margin-left: 40px;
+}
+
+.off_cont div {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+#cus {
+  width: 250px;
+  height: 18px;
+  font-family: "Nanum Myeongjo";
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.postCon {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+.postCon h2{
+  margin-left: 0px;
+}
+
+#pos {
+  height: 18px;
+  font-family: "Nanum Myeongjo";
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.payCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
+}
+
+#ourAcc {
+  font-size: 15px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+#payName {
+  height: 18px;
+  font-family: "Nanum Myeongjo";
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.orderBtn {
+  display: flex;
+  justify-content: center;
+  margin-top : 50px;
+}
+
+/**Login**/
+
+.loginBox {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.loginBox input {
+  height: 35px;
+  margin-top: 10px;
+  padding: 20px 10px;
+  font-family: "Nanum Myeongjo";
+}
+.loginBtm {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.goJoin {
+  height: 40px;
+}
+/**Join**/
+.joinBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.joinBox input {
+  height: 45px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 300px;
+  font-family: "Nanum Myeongjo";
+}
+
+
+#join_btn {
+  margin-top: 50px;
+}
+
+.todayFlo {
+  font-family: "Nanum Brush Script";
+  font-size: 40px;
+
+}
+
+.postCode {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  justify-content: start;
+}
+
+#edi {
+  margin-left: 40px;
+}
+
+.editBox div {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.editCont {
+  margin: 0px;
+}
+
+#edit_btn {
+  margin-top: 50px;
+}
+
+.myInfo {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.myInfo h2{
+  margin-bottom: 0px;
+}
+
+.myInfo p {
+  margin-top: 0;
+  color: rgba(91, 73, 54, 0.47);
+}
+
+.myInfoBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.myInfoBox #userEdit_btn{
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #ca8a8b;
+}
+
+.orderStsBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  border-top: 1px solid rgba(166, 166, 166, 0.46);
+  border-bottom: 1px solid rgba(166, 166, 166, 0.46);
+  padding-top: 20px;
+}
+
+#orderSts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 55px;
+  margin-bottom: 10px;
+}
+
+.orderSts1 {
+  border-right: 0.8px solid rgba(166, 166, 166, 0.46);
+}
+
+.orderSts3 {
+  border-left: 0.8px solid rgba(166, 166, 166, 0.46);
+}
+
+.orderListT {
+  align-self: start;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.orderListBox {
+  text-align: start;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.orderPro {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.orderImg {
+  width: 35%;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+.orderText {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  text-align: start;
+  margin-left: 20px;
+  width: 400px;
+}
+
+#orItemT {
+  margin: 10px 0px;
+}
+
+.orderText p {
+  font-size: 13px;
+}
+
+.basketBox {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.basketBox hr {
+  width: 100%;
+}
+
+#guPrice {
+  align-self: start;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.basketPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid rgba(166, 166, 166, 0.41);
+}
+
+.basketBox_bottom {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.SellerOrderText {
+  display: flex;
+  flex-direction: row;
+  padding: 0 30px;
+  text-align: start;
+  margin-left: 20px;
+  width: 400px;
+}
+
+
+footer {
+  height: 200px;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 150px;
+  margin-left: 10px;
+}
+.SellerBox {
+  width: 100%;
+}
+.cusMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding : 10px 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.sellerOrderText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding : 10px 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.pwdForm {
+  font-family: "Nanum Myeongjo";
+  color: #5b4936;
+}
+
+#pwdInput {
+  width: 200px;
+  height: 40px;
+  padding : 10px;
+  margin : 30px 0;
+}
+
+.basketItem {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  margin : 10px 0;
+  border-top: 1px solid rgba(166, 166, 166, 0.31);
+}
